@@ -18,7 +18,9 @@ public class Main {
     }
 
     public static String user() {
-	return System.getProperty("custom.prop");
+	String splittedData[] = System.getProperty("user.dir").split("/", 4);
+
+	return splittedData[2];
     }
 
     public static void openFile() {
