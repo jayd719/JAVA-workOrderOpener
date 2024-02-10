@@ -8,14 +8,14 @@ package com.workOrderOpener;
  */
 public class Main {
 
-    /**
+    /**1
      * @param args
      */
     public static void main(String[] args) {
 
-        // Model model = new Model();
+        Model model = new Model();
 
-        System.out.println(Functions.isValidWorkOrder("1912sss-01"));
+        System.out.println(Functions.isValidWorkOrder("19121-01"));
 	// TODO Auto-generated method stub
 	System.out.println(user());
 
